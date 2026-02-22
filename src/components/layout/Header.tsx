@@ -32,11 +32,9 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[var(--border)] bg-[var(--card)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--card)]/80 shadow-[0_0_30px_rgba(59,130,246,0.05)]">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+      <div className="container mx-auto flex min-h-[120px] items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 transition-transform hover:scale-105">
-          <div className="rounded-lg shadow-[0_0_20px_rgba(59,130,246,0.4)]">
-            <Logo3D size={40} />
-          </div>
+          <Logo3D size={120} />
           <span className="text-lg font-semibold tracking-tight">
             Miftahul Falaah
           </span>

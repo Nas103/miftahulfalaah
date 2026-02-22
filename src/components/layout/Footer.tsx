@@ -33,15 +33,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-4 transition-transform hover:scale-105">
-              <div
-                className="rounded-xl"
-                style={{
-                  boxShadow:
-                    "0 0 25px rgba(59,130,246,0.3), 0 0 15px rgba(212,175,55,0.15)",
-                }}
-              >
-                <Logo3D size={56} />
-              </div>
+              <Logo3D size={168} />
               <div>
                 <p className="text-lg font-semibold tracking-tight">
                   Miftahul Falaah
