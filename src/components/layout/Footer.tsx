@@ -24,7 +24,7 @@ export function Footer() {
       />
       <div
         className="pointer-events-none absolute bottom-1/4 right-1/4 h-32 w-32 rounded-full bg-[212,175,55]/15 blur-[50px]"
-        style={{ backgroundColor: "rgba(212, 175, 55, 0.12)" }}
+        style={{ backgroundColor: "rgba(192, 192, 192, 0.12)" }}
         aria-hidden
       />
 
